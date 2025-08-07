@@ -42,3 +42,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 6 Output](exercise6.png)
+
+### Exercise 7: `toString()` - Converting back to a String
+1. **Prediction**: `StringBuilder: Status: Pending - Approved`, `Final String: Status: Pending`
+    * Since we converted `sb` into a string before we appended " - Approved" to the StringBuilder, the final string only printed "Status: Pending" because unlike StringBuilders, a String is immutable and cannot be modified anymore.
+2. **Observation/Output**
+
+![Exercise 7 Output](exercise7.png)

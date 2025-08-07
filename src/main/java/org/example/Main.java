@@ -32,15 +32,26 @@ public class Main {
 //        System.out.println(sb);
 
         // Exercise 6: substring(), indexOf(), and Non-Existing Words
-        StringBuilder sb = new StringBuilder("The quick brown fox jumps over the lazy dog.");
+//        StringBuilder sb = new StringBuilder("The quick brown fox jumps over the lazy dog.");
+//
+//        String sub = sb.substring(16, 19);
+//        System.out.println("Substring: " + sub); // fox
+//
+//        int indexOfFox = sb.indexOf("fox");
+//        System.out.println("Index of 'fox': " + indexOfFox); // 16
+//
+//        int indexOfCat = sb.indexOf("cat");
+//        System.out.println("Index of 'cat': " + indexOfCat); // -1
 
-        String sub = sb.substring(16, 19);
-        System.out.println("Substring: " + sub); // fox
+        // Exercise 7: toString() - Converting back to a String
+        StringBuilder sb = new StringBuilder("Status: ");
+        sb.append("Pending");
 
-        int indexOfFox = sb.indexOf("fox");
-        System.out.println("Index of 'fox': " + indexOfFox); // 16
+        String finalStatus = sb.toString();
 
-        int indexOfCat = sb.indexOf("cat");
-        System.out.println("Index of 'cat': " + indexOfCat); // -1
+        sb.append(" - Approved");
+
+        System.out.println("StringBuilder: " + sb); // Status: Pending - Approved
+        System.out.println("Final String: " + finalStatus); // Status: Pending
     }
 }
