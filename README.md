@@ -16,8 +16,15 @@ Submitted by: Baruc, Jana Enigma S.
 ![Exercise 2 Output](exercise2.png)
 
 ### Exercise 3: `delete()` - Deleting Content
-1. **Prediction**: `After delete(8, 16): This is entence.`, `After deleteCharAt(4): Thisis entence`
+1. **Prediction**: `After delete(8, 16): This is entence.`, `After deleteCharAt(4): Thisis entence.`
     * The `delete(8, 16)` deletes the string from index 8 up to index 16. The `deleteCharAt(4)` deletes the character at index 4.
 2. **Observation/Output**
 
 ![Exercise 3 Output](exercise3.png)
+
+### Exercise 4: `replace()` - Replacing a Section
+1. **Prediction**: `I like programming in PyJava`
+    * The `replace(24, 30, "Java")` replaces the string from index 24 up to index 30 with the string "Java".
+2. **Observation/Output**
+
+![Exercise 4 Output](exercise4.png)

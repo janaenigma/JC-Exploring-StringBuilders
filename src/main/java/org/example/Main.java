@@ -14,11 +14,16 @@ public class Main {
 //        System.out.println(sb);
 
         // Exercise 3: delete() - Deleting Content
-        StringBuilder sb = new StringBuilder("This is a test sentence.");
-        sb.delete(8, 16);
-        System.out.println("After delete(8, 16): " + sb);
+//        StringBuilder sb = new StringBuilder("This is a test sentence.");
+//        sb.delete(8, 16);
+//        System.out.println("After delete(8, 16): " + sb);
+//
+//        sb.deleteCharAt(4);
+//        System.out.println("After deleteCharAt(4): " + sb);
 
-        sb.deleteCharAt(4);
-        System.out.println("After deleteCharAt(4): " + sb);
+        // Exercise 4: replace() - Replacing a Section
+        StringBuilder sb = new StringBuilder("I like programming in Python.");
+        sb.replace(24, 30, "Java"); // PyJava
+        System.out.println(sb);
     }
 }
