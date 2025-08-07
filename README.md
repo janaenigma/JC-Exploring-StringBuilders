@@ -17,21 +17,28 @@ Submitted by: Baruc, Jana Enigma S.
 
 ### Exercise 3: `delete()` - Deleting Content
 1. **Prediction**: `After delete(8, 16): This is entence.`, `After deleteCharAt(4): Thisis entence.`
-    * The `delete(8, 16)` deletes the string from index 8 up to index 16. The `deleteCharAt(4)` deletes the character at index 4.
+    * The `delete(8, 16)` method deletes the string from index 8 up to index 16. The `deleteCharAt(4)` deletes the character at index 4.
 2. **Observation/Output**
 
 ![Exercise 3 Output](exercise3.png)
 
 ### Exercise 4: `replace()` - Replacing a Section
 1. **Prediction**: `I like programming in PyJava`
-    * The `replace(24, 30, "Java")` replaces the string from index 24 up to index 30 with the string "Java".
+    * The `replace(24, 30, "Java")` method replaces the string from index 24 up to index 30 with the string "Java".
 2. **Observation/Output**
 
 ![Exercise 4 Output](exercise4.png)
 
 ### Exercise 5: Method Chaining
 1. **Prediction**: `Ready, Set, rt...`
-    * The `append(...)` adds the string "..." after the string in `StringBuilder`. The `insert(0, "Ready, Set, ")` inserts the string "Ready, Set, " at index 0. `delete(12, 15)` removes the string beginning at index 12, but stopping before it reaches index 15.
+    * The `append(...)` method adds the string "..." after the string in `StringBuilder`. The `insert(0, "Ready, Set, ")` inserts the string "Ready, Set, " at index 0. `delete(12, 15)` removes the string beginning at index 12, but stopping before it reaches index 15.
 2. **Observation/Output**
 
 ![Exercise 5 Output](exercise5.png)
+
+### Exercise 6: `substring()`, `indexOf()`, and Non-Existing Words
+1. **Prediction**: `Substring: fox`, `Index of 'fox': 16`, `Index of 'cat': -1`
+    * The `substring(16, 19)` method returns the substring beginning at index 16 and ending at index 18 (index 19-1). The `indexOf("fox")` method returns the index where the string "fox" begins. Similar to String, `indexOf()` will return -1 if the string does not exist in the StringBuilder.
+2. **Observation/Output**
+
+![Exercise 6 Output](exercise6.png)

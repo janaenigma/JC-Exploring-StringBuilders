@@ -27,8 +27,20 @@ public class Main {
 //        System.out.println(sb);
 
         // Exercise 5: Method Chaining
-        StringBuilder sb = new StringBuilder("Start");
-        sb.append("...").insert(0, "Ready, Set, ").delete(12,15); // Ready, Set, Start... Ready, Set, rt...
-        System.out.println(sb);
+//        StringBuilder sb = new StringBuilder("Start");
+//        sb.append("...").insert(0, "Ready, Set, ").delete(12,15); // Ready, Set, Start... Ready, Set, rt...
+//        System.out.println(sb);
+
+        // Exercise 6: substring(), indexOf(), and Non-Existing Words
+        StringBuilder sb = new StringBuilder("The quick brown fox jumps over the lazy dog.");
+
+        String sub = sb.substring(16, 19);
+        System.out.println("Substring: " + sub); // fox
+
+        int indexOfFox = sb.indexOf("fox");
+        System.out.println("Index of 'fox': " + indexOfFox); // 16
+
+        int indexOfCat = sb.indexOf("cat");
+        System.out.println("Index of 'cat': " + indexOfCat); // -1
     }
 }
