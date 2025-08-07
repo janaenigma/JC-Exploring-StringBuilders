@@ -28,3 +28,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 4 Output](exercise4.png)
+
+### Exercise 5: Method Chaining
+1. **Prediction**: `Ready, Set, rt...`
+    * The `append(...)` adds the string "..." after the string in `StringBuilder`. The `insert(0, "Ready, Set, ")` inserts the string "Ready, Set, " at index 0. `delete(12, 15)` removes the string beginning at index 12, but stopping before it reaches index 15.
+2. **Observation/Output**
+
+![Exercise 5 Output](exercise5.png)

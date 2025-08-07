@@ -22,8 +22,13 @@ public class Main {
 //        System.out.println("After deleteCharAt(4): " + sb);
 
         // Exercise 4: replace() - Replacing a Section
-        StringBuilder sb = new StringBuilder("I like programming in Python.");
-        sb.replace(24, 30, "Java"); // PyJava
+//        StringBuilder sb = new StringBuilder("I like programming in Python.");
+//        sb.replace(24, 30, "Java"); // PyJava
+//        System.out.println(sb);
+
+        // Exercise 5: Method Chaining
+        StringBuilder sb = new StringBuilder("Start");
+        sb.append("...").insert(0, "Ready, Set, ").delete(12,15); // Ready, Set, Start... Ready, Set, rt...
         System.out.println(sb);
     }
 }
