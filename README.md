@@ -7,3 +7,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 1 Output](exercise1.png)
+
+### Exercise 2: `insert()` - Inserting Content at a Position
+1. **Prediction**: `Java is really great!`.
+    * This is because the `insert()` method inserts the new string at the index given.
+2. **Observation/Output**
+
+![Exercise 2 Output](exercise2.png)
