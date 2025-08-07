@@ -1,6 +1,6 @@
 package org.example;
 
-public class Main {
+public class ExploringStringBuilder {
     public static void main(String[] args) {
 
         // Exercise 1: append() - Appending Content
