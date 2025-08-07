@@ -1,0 +1,9 @@
+# Exploring Java `StringBuilder`
+Submitted by: Baruc, Jana Enigma S.
+
+### Exercise 1: `append()` - Appending Content
+1. **Prediction**: `Hello, Cadets!`.
+    * This is because the `append()` method simply adds the new string after the declared string in `StringBuilder`.
+2. **Observation/Output**
+
+![Exercise 1 Output](exercise1.png)
